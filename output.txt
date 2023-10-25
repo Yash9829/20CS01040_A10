@@ -1,0 +1,51 @@
+ x = 1
+ t0 = x + 5
+ y = t0
+ print x
+ t1 = Read y
+ t2 = p != q
+ t3 = a == 5
+ t4 = t2 and t3
+ t5 = t4
+ If ! (t5) goto L0
+ print c
+ t6 = a < b
+ t7 = t6
+ If ! (t7) goto L1
+ t8 = a + b
+ b = t8
+ L2 :  t9 = m < n
+ If ! (t9) goto L3
+ t10 = a * 4
+ n = t10
+ goto L2
+ L3 :  t11 = 7 * 8
+ v = t11
+ goto L4
+ L1 :  t12 = Read f
+ L4 :  print q
+ goto L5
+ L0 :  print a
+ print b
+ L5 :  a = 5
+ L6 :  t13 = x > y
+ If ! (t13) goto L7
+ t14 = x + 1
+ r = t14
+ L8 :  t15 = a > b
+ If ! (t15) goto L9
+ t16 = y + 1
+ q = t16
+ L10 :  t17 = d >= c
+ If ! (t17) goto L11
+ t18 = v + g
+ c = t18
+ t19 = 6 < 5
+ t20 = t19
+ If ! (t20) goto L12
+ t21 = a * c
+ b = t21
+ L12 :  goto L10
+ L11 :  goto L8
+ L9 :  goto L6
+ L7 :  exit
